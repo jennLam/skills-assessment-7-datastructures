@@ -1,0 +1,29 @@
+Recursion
+1. Recursion occurs when a function calls itself
+2. It is necessary to have a base case because otherwise the loop will continue on. A base case in recursion is when it stops.
+
+Graphs
+1. A graph has nodes connected by an edge. It is like a tree except it can contain loops. And it can also have directed or un-directed relationships.
+2. It is different from the tree because it can contain loops. Trees cannot. It can also have directed or un-directed relationships
+3. Things with relationships can good for making graphs. Like Facebook friends, destination routes, etc.
+
+Data Structure  Index   Search  Add-R   Add-L   Pop-L   Pop-R
+Python List (Array) O(1)  O(n)    O(1)   O(n)    O(n)   O(1)  
+Linked List      O(n)      O(n)   O(1)   O(1)    O(1)    O(n)
+Doubly-Linked List  O(n)   O(n)   O(1)   O(1)    O(1)   O(1)
+Queue (as Array)    X       X      O(1)   X       O(n)    X
+Queue (as LL or DLL)    X   X       O(1)  X       O(1)    X
+Stack (as Array, LL, or DLL)    X   X       X   X    
+Deque (as DLL)  X   X               O(1)   O(1)    O(1)   O(1)
+
+Data Structure          Get     Add    Delete  Iterate Memory
+Dictionary (Hash Map)   O(1)    O(1)    O(1)    O(n)    medium
+Set (Hash Map)           O(1)   O(1)    O(1)    O(n)    medium
+Binary Search Tree      O(logn) O(logn) O(logn) O(n)    low     
+Tree                      O(n)   O(1)   O(1)    O(n)    low
+
+Sorting
+1. You have a list, and it starts from the first index and it compares values with the next index. If it is larger, it will swap with that value. It keeps swapping till it reaches the end of encounters an index that is larger than it. The larger values bubble up.
+2. In merge sort, it breaks a list in half and keeps breaking it in half, till there is only one value in the list. And it merges all the various lists together, comparing the first values in each list. It does this till all lists are merged back.
+3. In quick sort, you choose a pivot and set all the values lower than the pivot to the left and all values higher than the pivot to the right. Then you quick sort the low values (by chosing a pivot and repeating the process, making a low and high list) and you quick sort the high values. You continue till list is sorted.
+
